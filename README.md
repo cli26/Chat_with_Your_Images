@@ -1,6 +1,6 @@
 # Chat_with_Your_Images
 
-通过Azure OpenAI 访问 GPT4-turbo with Vision。建立包含图片数据的知识库，并基于 REST API 与这个知识库进行问答互动。
+通过Azure OpenAI 访问 GPT4 Turbo with Vision。建立包含图片数据的知识库，并基于 REST API 与这个知识库进行问答互动。在这个 repo 中以零售场景中拍摄的货架图片为例，首先通过 Florence model 对图片中的商品进行分割，再通过 GPT4 Turbo with Vision 对单个商品图片进行分析，可实现缺货提醒，排面检查等一系列后续任务。
 
 ## Prerequisites
 1. An Azure subscription.
